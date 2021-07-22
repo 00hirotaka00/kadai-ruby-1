@@ -1,10 +1,6 @@
 sei="まえはら"
 mei="ひろたか"
 
-str=sei+mei
-str2="です。"
+age=5
 
-num="5"
-str3="歳です。"
-
-puts str+str2+num+str3
+puts sei+mei+"です。"+age.to_s+"歳です。"
